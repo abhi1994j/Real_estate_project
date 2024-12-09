@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+  } */
+  
+/* html{        
+    font-size: 62.5%;
+} */
+
+body{
+   
+}
+
+.header> .hero{ 
+    background-image: url(./assets/Screenshot\ 2024-12-09\ 103301.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;   
+}
+
+.navbar-container {
+    background: linear-gradient(to bottom, #000000, #343232, #656060);
+    height: 5rem;
+  }
+
+.navbar-container>ul{
+    width: 65%;
+    padding-left: 85px;
+    padding-top: 25px;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;  
+  } 
+  
+.navbar-container ul li {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 35px; 
+    width: 75px; 
+  }
+
+  .navbar-container ul li:hover {
+    background-color: white; 
+    color: #333333;    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 2px; 
+    cursor: pointer;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;
+    /* grid-template-rows: repeat(1 ,200px); */
+  }
+
+  .grid-container > div{
+    margin: 20px;
+  }
+
+  .about-section{
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+   
+  }
+
+  .about-section-description{
+    color: azure;
+    margin: 2rem;
+    width: 500px;
+    height: 336px;
+    align-self: last baseline;
+  }
